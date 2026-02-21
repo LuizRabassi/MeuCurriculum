@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="/src/index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Árvore de Links - Luiz Programador</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <img src="https://i.imgur.com/8Km9tLL.png" class="profile-img">
+            <h1>Luiz Dev</h1>
+            <p>💻 Desenvolvedor Front-End</p>
+
+            <a href="https://github.com/LuizDev" class="link" onclick="mostrarMensagem('GitHub')">GitHub</a>
+            <a href="#" class="link" onclick="mostrarMensagem('Portfólio')">Portfólio</a>
+            <a href="#" class="link" onclick="mostrarMensagem('LinkedIn')">LinkedIn</a>
+            <a href="#" class="link" onclick="mostrarMensagem('Projetos')">Projetos</a>
+
+            <button onclick="ativarDarkMode()">🌙 Alternar Tema</button>
+        </div>
+
+        <script>
+            function mostrarMensagem(link) {
+            alert("Você clicou no link: " + link);
+        }
+
+        function ativarDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+        </script>
+
+    </body>
+</html>
