@@ -1,0 +1,11 @@
+Teste Js
+--> alert("JS carregou!");
+
+Teste CSS
+--> body {
+        background: red !important;
+    }
+
+Teste de qual erro
+--> F12 → Console
+
